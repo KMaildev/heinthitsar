@@ -95,7 +95,7 @@
 
                                         <div class="home-area-box-item">
                                             <div class="home-area-box-item-thumb">
-                                                <img src="assets/img/demo/demo-1.jpg" alt="demo-image">
+                                                <img src="{{ asset('data/about-us.jpg') }}" alt="demo-image">
                                             </div>
                                             <div class="home-area-box-item-content">
                                                 <h6 class="two">
@@ -114,7 +114,7 @@
 
                                         <div class="home-area-box-item">
                                             <div class="home-area-box-item-thumb">
-                                                <img src="assets/img/demo/demo-1.jpg" alt="demo-image">
+                                                <img src="{{ asset('data/ceobg.jpeg') }}" alt="demo-image">
                                             </div>
                                             <div class="home-area-box-item-content">
                                                 <h6 class="two">
@@ -133,7 +133,7 @@
 
                                         <div class="home-area-box-item">
                                             <div class="home-area-box-item-thumb">
-                                                <img src="assets/img/demo/demo-1.jpg" alt="demo-image">
+                                                <img src="{{ asset('data/team.png') }}" alt="demo-image">
                                             </div>
                                             <div class="home-area-box-item-content">
                                                 <h6 class="two">
@@ -151,7 +151,7 @@
 
                                         <div class="home-area-box-item">
                                             <div class="home-area-box-item-thumb">
-                                                <img src="assets/img/demo/demo-1.jpg" alt="demo-image">
+                                                <img src="{{ asset('data/profile.jpg') }}" alt="demo-image">
                                             </div>
                                             <div class="home-area-box-item-content">
                                                 <h6 class="two">
@@ -314,7 +314,7 @@
 
         <div class="menu__bar-popup two">
             <div class="menu__bar-popup-close"><i class="fal fa-times"></i></div>
-            <div class="menu__bar-popup-left" >
+            <div class="menu__bar-popup-left">
                 <div class="menu__bar-popup-left-logo">
                     <a href="{{ route('home') }}">
                         <img src="{{ asset('data/company/logo.jpg') }}" alt="logo-image"></a>

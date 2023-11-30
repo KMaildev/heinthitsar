@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-    @include('layouts.slider')
+    @include('layouts.slider2')
 
     <div class="services__two section-padding">
         <img class="services__two-shape-one dark-n" src="{{ asset('assets/img/shape/services-3.png') }}" alt="services-shape">
